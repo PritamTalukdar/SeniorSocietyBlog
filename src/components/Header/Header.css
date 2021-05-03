@@ -1,0 +1,37 @@
+.topnav-wrapper {
+    font-family: 'Cinzel', serif;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 100;
+    /* border: 2px solid blue; */
+}
+
+.left-topnav-wrapper {
+    /* border: 2px solid red; */
+    background-color: #10222D;
+}
+
+.right-topnav-wrapper {
+    display: grid;
+    place-items: center;
+    background-color: #FFF5D0;
+}
+
+.topnav-items {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav-items:hover {
+    border-bottom: 2px solid #10222D;
+    color: black;
+}
+
+.active {
+    border-bottom: 2px solid #10222D;
+}

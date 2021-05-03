@@ -1,0 +1,52 @@
+.right-wrapper {
+    font-family: 'Cinzel', serif;
+    display: grid;
+    place-items: center;
+}
+
+.topnav {
+    overflow: hidden;
+    color: black;
+    /* border: 2px solid red; */
+}
+
+.topnav-items {
+    /* border: 2px solid red; */
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav-items:hover {
+    border-bottom: 2px solid #10222D;
+    color: black;
+}
+
+.active {
+    /* background-color: #4CAF50; */
+    /* color: white; */
+    border-bottom: 2px solid #10222D;
+}
+
+.article-wrapper {
+    display: grid;
+    place-items: center;
+    /* border: 2px solid green; */
+    height: 65vh;
+    padding: 60px;
+}
+.article {
+    text-align: left;
+}
+
+.footer-wrapper {
+    /* border: 2px solid yellow; */
+    padding: 0px 60px;
+}
+
+.footer {
+    text-align: left;
+}

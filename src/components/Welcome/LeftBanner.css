@@ -1,0 +1,35 @@
+.icon-wrapper{
+    width: 50%;
+    /* border: 2px solid blue; */
+    text-align: center;
+    color: #FFF5D0;
+}
+
+.icon {
+    font-family: 'Cinzel', serif;
+    color: #FFF5D0;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    opacity: 1.0;
+    letter-spacing: 0.02;
+    line-height: 1.05;
+}
+
+.home-wrapper {
+    display: grid;
+    place-items: center;
+    width: 50%;
+}
+
+.line-segment {
+    border-color: #FFF5D0;
+    margin: 0 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .icon{
+    font-size: 25px;
+  }
+}
+
